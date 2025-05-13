@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+:root {
+  
+}
+body{
+  overflow-x:hidden;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.btn-default{
+  border-radius: 10px;
+  background-color: #00b300;
+  color: white;
+  cursor: pointer;
+  font-weight: semibold;
+  transition: 0.5s; 
+
+  
+
+}
+
+.btn-default:hover{
+  scale: 110%;
+
+
+
+}
+
+.item-menu{
+  cursor: pointer;
+}
+.item-menu:hover
+{
+
+  color: white;
+  
+}
+
+.letreiro{
+  animation: letreiro 23s linear infinite;
+}
+
+.monte{
+  transition: 0.5s;
+  
+  animation: click 2s ease-in-out infinite;
+}
+
+.monte:hover{
+  color: #fff;
+  background-color: #00b300;
+ 
+
+}
+
+.div-text{
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+@keyframes letreiro {
+  from {
+    transform: translateX(-60%);
+  }
+
+  to {
+    transform: translateX(80%);
+  }
+}
+
+@keyframes click {
+  0%,
+  100% {
+    scale: 93%;
+  }
+  50% {
+    scale: 100%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  
+.letreiro{
+  animation: letreiro 8s linear infinite;
+}
+
+@keyframes letreiro {
+  from {
+    transform: translateX(-90%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+}
+
+@media (min-width:500px) and (max-width: 900px) {
+  
+  .letreiro{
+    animation: letreiro 15s linear infinite;
+  }
+  
+  @keyframes letreiro {
+    from {
+      transform: translateX(-90%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  }
+  
