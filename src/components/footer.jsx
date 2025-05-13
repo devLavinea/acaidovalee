@@ -16,7 +16,7 @@ function Footer() {
        <div className=" gap-[25px] flex flex-col justify-around align-text-left h-[70%] w-[43%] text-[25px] font-normal"> 
          <div className='div-text'> 
             <IoLogoWhatsapp />
-            <a href="https://api.whatsapp.com/send?phone=5574999840828&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!"> (74) 9 8824-8014</a>
+            <a href="https://api.whatsapp.com/send?phone=5574999840828&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!"> (74) 9 9984-0828</a>
          </div>
          <div className='div-text'> 
             <SiIfood />
