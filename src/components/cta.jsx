@@ -12,7 +12,7 @@ const Cta = () => {
       <div className=" bg-[url('./assets/banner1.png')] bg-cover bg-center  w-full h-[100%]  flex justify-center items-center relative">
         <div className="monte md:w-[570px] md:h-[110px]  h-[60px] w-[300px] md:text-[40px] text-[25px] text-[#2c003b] shadow-[0px_3px_0px_7px_rgba(0,0,0,0.9)] shadow-[#2c003b] rounded-[100px] bg-[#ffd427] absolute top-[60%] justify-around items-center flex  cursor-pointer font-bold ">
           <a
-            href="https://api.whatsapp.com/send?phone=5574999840828&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!"
+            href="https://api.whatsapp.com/send?phone=5574999630180&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!"
            
           >
             <h2>Monte Seu Copo!</h2>
