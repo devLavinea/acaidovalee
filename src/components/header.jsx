@@ -40,7 +40,7 @@ function Header() {
             <li className="mb-4 md:mb-0"><a className="item-menu" href="/">Início</a></li>
             <li className="mb-4 md:mb-0"><a className="item-menu" href="./cardapio.html">Cardápio</a></li>
             <li className="mb-4 md:mb-0"><a className="item-menu " href="#footer">Contatos/Localização</a></li>
-            <a href="https://api.whatsapp.com/send?phone=5574999840828&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!">
+            <a href="https://api.whatsapp.com/send?phone=5574999630180&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!">
               <button className='btn-default md:w-[130px] h-[35px] w-[240px]  ml-0 md:ml-[15px] md:text-[17px] text-[20px]'>Fazer Pedido</button>
             </a>
           </ul>
